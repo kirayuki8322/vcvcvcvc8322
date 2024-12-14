@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#participant-list {
+  margin: 0 auto; /* リスト全体を中央に配置 */
+  list-style-type: disc; /* リストマーカーを点に設定 */
+  padding: 0;
+  width: fit-content; /* コンテンツに応じてリストの幅を調整 */
+}
+
+#participant-list li {
+  text-align: left; /* リスト項目のテキストを左寄せ */
+  padding-left: 20px; /* 点と文字の間に余白を追加 */
+}
+
+#participant-list-jp {
+  margin: 0 auto; /* リスト全体を中央に配置 */
+  list-style-type: disc; /* リストマーカーを点に設定 */
+  padding: 0;
+  width: fit-content; /* コンテンツに応じてリストの幅を調整 */
+}
+
+#participant-list-jp li {
+  text-align: left; /* リスト項目のテキストを左寄せ */
+  padding-left: 20px; /* 点と文字の間に余白を追加 */
+}
+
+.header-text {
+  margin: 0px;
+  padding: 0px;
+}
+
+#id-disp{
+  visibility: hidden;
+}
+
+#join, #NonMute-btn, #leave {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#join {
+  background: rgb(219, 161, 66);
+}
+
+#NonMute-btn {
+  background-color: rgb(147, 235, 235);
+  visibility: hidden;
+}
+
+#leave {
+  background: rgb(252, 63, 63);
+  visibility: hidden;
+}
+
+#join-jp, #NonMute-btn-jp, #leave-jp {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#join-jp {
+  background: rgb(219, 161, 66);
+}
+
+#NonMute-btn-jp {
+  background-color: rgb(147, 235, 235);
+  visibility: hidden;
+}
+
+#leave-jp {
+  background: rgb(252, 63, 63);
+  visibility: hidden;
+}
+
+#button-area, #remote-media-area {
+  display: none;
+}
+
+.Id-Key {
+  position: relative;
+  margin-top: 50vh;
+}
